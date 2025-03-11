@@ -1,4 +1,4 @@
-import Button from '../Buttons/Button';
+import Button from '../Buttons/button';
 
 import './auth-buttons.css';
 
