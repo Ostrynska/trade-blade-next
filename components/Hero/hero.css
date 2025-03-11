@@ -39,50 +39,6 @@
   max-width: 565px;
 }
 
-.hero-form {
-  display: flex;
-  margin-bottom: 12px;
-  position: relative;
-  align-items: center;
-  width: 100%;
-  max-width: 500px;
-}
-
-.hero-form input {
-  width: 100%;
-  padding: 20px 0 20px 16px;
-  background: #201A4F;
-  border-radius: 4px;
-  border: none;
-  color: rgba(255, 255, 255, 0.34);
-  border: none;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(20 / 16);
-  letter-spacing: -1%;
-  text-transform: uppercase;
-}
-
-.hero-form button {
-  position: absolute;
-  right: 4px;
-  padding: 16px 24px;
-  background: #57E1FF;
-  border: 1px solid #57E1FF;
-  border-radius: 4px;
-  box-shadow: 0px 0px 4px 0px #57E1FF;
-  color: #030718;
-  cursor: pointer;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: calc(20 / 16);
-  text-transform: uppercase;
-}
-
-.hero-form button:hover {
-  background: #00bde0;
-}
-
 .hero-note {
   font-size: 14px;
   line-height: calc(20 / 14);

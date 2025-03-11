@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Form from '../Form/form';
 import './hero.css';
 
 export default function HeroSection() {
@@ -16,10 +17,7 @@ export default function HeroSection() {
           Начни копировать сделки с успешной командой профессиональных трейдеров в автоматическом режиме.
         </p>
 
-        <form className="hero-form">
-          <input type="email" placeholder="ВАШ E-MAIL" />
-          <button type="submit">НАЧАТЬ</button>
-        </form>
+        <Form buttonText="НАЧАТЬ" />
 
         <p className="hero-note">5 дней бесплатного пользования</p>
       </div>

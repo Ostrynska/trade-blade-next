@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import NavLinks from './nav-links';
-import Button from '../Buttons/Button';
+import Button from '../Buttons/button';
 import './mobile-menu.css';
 
 export default function MobileMenu({ links, toggleMobileMenu }) {
