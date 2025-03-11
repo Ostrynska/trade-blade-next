@@ -1,0 +1,48 @@
+.btn {
+  padding: 11px 24px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(20/14);
+  text-transform: uppercase;
+  box-shadow: 0px 0px 4px 0px #57E1FF;
+}
+
+.btn.outline {
+  border: 1.5px solid #57E1FF;
+  color: #57E1FF;
+  background: #57E1FF33;
+}
+
+.btn.filled {
+  background: #57E1FF;
+  color: #000000;
+  border: none;
+}
+
+.btn.outline:hover, .btn.outline:focus {
+  background: rgba(0, 210, 255, 0.1);
+}
+
+.btn.filled:hover, .btn.filled:focus {
+  background: #00bde0;
+}
+
+/* .btn.sm {
+  padding: 8px 20px;
+  font-size: 14px;
+} */
+
+.btn.md {
+  padding: 11px 24px;
+  font-size: 14px;
+  line-height: calc(20/14);
+}
+
+.btn.lg {
+  padding: 16px 24px;
+  font-size: 16px;
+  line-height: calc(20/16);
+  width: 100%;
+}
