@@ -1,0 +1,113 @@
+/* Секція */
+.deals-section {
+  padding: 80px 0;
+  background-color: #0a0a1b; /* темний фон */
+  color: #fff;
+}
+
+/* Заголовок секції */
+.deals-section h2 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+/* Онлайн-статус */
+.status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.status-dot {
+  width: 10px;
+  height: 10px;
+  background-color: #58FFA1;
+  border-radius: 50%;
+}
+
+/* Swiper-контейнер */
+.swiper {
+  padding-bottom: 48px;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+/* Картка */
+.deal-card {
+  background-color: #6C3EF5;
+  color: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  min-height: 220px;
+  width: 320px;
+
+  /* Спеціальний кут */
+  clip-path: polygon(0 0, calc(100% - 32px) 0, 100% 32px, 100% 100%, 0 100%);
+  
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  box-shadow: 0 4px 20px rgba(108, 62, 245, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.deal-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 28px rgba(108, 62, 245, 0.4);
+}
+
+/* Пара символ-валюта */
+.deal-card h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+/* Малий текст */
+.deal-card p {
+  font-size: 14px;
+  color: #bdbddd;
+  margin-bottom: 8px;
+}
+
+/* ПРИБЫЛЬ і цифра */
+.deal-card .profit-label {
+  color: #bdbddd;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.profit-value {
+  color: #58FFA1;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+/* Нижній блок */
+.deal-card-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #bdbddd;
+}
+
+/* Scrollbar */
+.swiper-scrollbar {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 4px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+.swiper-scrollbar-drag {
+  background-color: #6C3EF5;
+  border-radius: 4px;
+}
