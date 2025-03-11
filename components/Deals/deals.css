@@ -1,54 +1,51 @@
-/* Секція */
 .deals-section {
-  padding: 80px 0;
-  background-color: #0a0a1b; /* темний фон */
-  color: #fff;
+  position: relative;
+  padding: 96px 0 118px 0;
 }
 
-/* Заголовок секції */
-.deals-section h2 {
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 16px;
-}
-
-/* Онлайн-статус */
 .status {
+  margin-top: 4px;
+  margin-bottom: 72px;
   display: flex;
   align-items: center;
-  gap: 8px;
-  margin-bottom: 40px;
+  gap: 4px;
+}
+
+.status-label {
+  color: rgba(53, 255, 158, 0.9);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(20/14);
+  letter-spacing: -4%;
 }
 
 .status-dot {
-  width: 10px;
-  height: 10px;
-  background-color: #58FFA1;
+  width: 7px;
+  height: 7px;
+  background: rgba(53, 255, 158, 0.9);
   border-radius: 50%;
 }
 
-/* Swiper-контейнер */
 .swiper {
-  padding-bottom: 48px;
+  padding-bottom: 24px;
 }
 
 .swiper-slide {
   display: flex;
-  justify-content: center;
+  gap: 20px;
+  width: 299px !important;
+    height: 208px;
 }
 
-/* Картка */
 .deal-card {
-  background-color: #6C3EF5;
+  background: #6A54FF;
   color: #fff;
-  border-radius: 12px;
-  padding: 24px;
-  min-height: 220px;
-  width: 320px;
+  border-radius: 4px;
+  padding: 16px 16px 18px 16px;
+  width: 100%;
 
-  /* Спеціальний кут */
-  clip-path: polygon(0 0, calc(100% - 32px) 0, 100% 32px, 100% 100%, 0 100%);
-  
+  clip-path: polygon(0 0, calc(100% - 38px) 0, 100% 42px, 100% 100%, 0 100%);
+
   position: relative;
   display: flex;
   flex-direction: column;
@@ -59,55 +56,96 @@
 }
 
 .deal-card:hover {
-  transform: translateY(-6px);
+  transform: translateY(-3px);
   box-shadow: 0 8px 28px rgba(108, 62, 245, 0.4);
 }
 
-/* Пара символ-валюта */
 .deal-card h3 {
+  font-weight: 500;
   font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 4px;
-}
-
-/* Малий текст */
-.deal-card p {
-  font-size: 14px;
-  color: #bdbddd;
-  margin-bottom: 8px;
-}
-
-/* ПРИБЫЛЬ і цифра */
-.deal-card .profit-label {
-  color: #bdbddd;
-  font-size: 12px;
+  line-height: calc(28/20);
+  letter-spacing: -0.8px;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 2px;
+}
+
+.deal-spot {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(18/14);
+  letter-spacing: -0.28px;
+  color: rgba(255, 255, 255, 0.4);
+  margin-bottom: 48px;
+}
+
+.deal-time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(18/14);
+  letter-spacing: -0.28px;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.profit-label {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(18/14);
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  margin-bottom: 2px;
 }
 
 .profit-value {
-  color: #58FFA1;
-  font-weight: 700;
-  font-size: 24px;
+  color: #35FF9E;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: calc(36/28);
+  letter-spacing: -0.28px;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  margin-bottom: 9px;
 }
 
-/* Нижній блок */
+.deal-arrow {
+  margin-left: 6px;
+}
+
 .deal-card-footer {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
-  color: #bdbddd;
+  font-size: 14px;
+  line-height: calc(18/14);
+  letter-spacing: -0.28px;
 }
 
-/* Scrollbar */
+.deal-goal {
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.deal-date {
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+.deal-logo {
+  position: absolute;
+  top: 8px;
+  right: -28px;
+}
+
 .swiper-scrollbar {
-  background-color: rgba(255, 255, 255, 0.1);
-  height: 4px;
-  border-radius: 4px;
-  margin-top: 24px;
+  background: rgba(67, 79, 112, 0.4);
+  position: absolute !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  height: 6px !important;
+  border-radius: 56px;
+  max-width: 955px;
 }
 
 .swiper-scrollbar-drag {
-  background-color: #6C3EF5;
-  border-radius: 4px;
+  background: #6073A1;
 }

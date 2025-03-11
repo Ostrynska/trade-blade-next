@@ -1,5 +1,6 @@
 import './features.css';
 import FeaturesItem from './features-item';
+import Title from '../Title/title';
 
 export default function FeaturesSection() {
   const features = [
@@ -11,7 +12,7 @@ export default function FeaturesSection() {
   return (
     <section className="features-grid">
       <div className="features-left">
-        <h2 className="features-title">ЦИФРЫ</h2>
+        <Title>ЦИФРЫ</Title>
         <p className="features-date">Сентябрь 2022</p>
       </div>
 

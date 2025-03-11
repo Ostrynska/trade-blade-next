@@ -27,17 +27,8 @@
   justify-content: flex-start;
 }
 
-.features-title {
-  margin-bottom: 4px;
-  font-weight: 700;
-  font-size: 44px;
-  line-height: calc(56/44);
-  letter-spacing: -4%;
-  text-transform: uppercase;
-  color: #000000;
-}
-
 .features-date {
+  margin-top: 4px;
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px;
   line-height: calc(20/14);
