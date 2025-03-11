@@ -22,33 +22,19 @@ body {
 .layout-wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  gap: 24px;
+  column-gap: 24px;
   max-width: 1440px;
   padding: 0 80px;
   margin: 0 auto;
   box-sizing: border-box;
 }
-
-@media screen and (max-width: 1024px) {
-  .layout-wrapper {
-    grid-template-columns: repeat(8, 1fr);
-    padding: 0 40px;
-  }
-}
-
+/* 
 @media screen and (max-width: 768px) {
   .layout-wrapper {
     grid-template-columns: repeat(4, 1fr);
     padding: 0 20px;
   }
-}
-
-@media screen and (max-width: 480px) {
-  .layout-wrapper {
-    grid-template-columns: 1fr;
-    padding: 0 16px;
-  }
-}
+} */
 
 * {
   box-sizing: border-box;
