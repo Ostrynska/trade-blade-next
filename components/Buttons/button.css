@@ -7,10 +7,12 @@
   line-height: calc(20/14);
   text-transform: uppercase;
   box-shadow: 0px 0px 4px 0px #57E1FF;
+  display: flex;
+  flex-direction: column;
 }
 
 .btn.outline {
-  border: 1.5px solid #57E1FF;
+  border: 1px solid #57E1FF;
   color: #57E1FF;
   background: #57E1FF33;
 }
@@ -18,7 +20,7 @@
 .btn.filled {
   background: #57E1FF;
   color: #000000;
-  border: none;
+  border: 1.5px solid #57E1FF;
 }
 
 .btn.outline:hover, .btn.outline:focus {
@@ -27,6 +29,15 @@
 
 .btn.filled:hover, .btn.filled:focus {
   background: #00bde0;
+}
+
+.trial-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: calc(16/12);
+  color: rgba(3, 7, 24, 0.56);
+  text-align: center;
+  text-transform: none;
 }
 
 /* .btn.sm {

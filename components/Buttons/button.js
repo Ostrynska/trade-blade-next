@@ -6,6 +6,7 @@ export default function Button({
   variant = 'filled',
   size = 'md',
   children,
+  bottomText = '',
   onClick,
   type = 'button',
   className = '',
@@ -14,9 +15,14 @@ export default function Button({
   const classes = `btn ${variant} ${size} ${className}`;
 
   return (
-    <button type={type} onClick={onClick} className={classes} {...props}>
-      {children}
-    </button>
+    <div className="btn-wrapper">
+      <button type={type} onClick={onClick} className={classes} {...props}>
+        {children}
+        {bottomText && (
+        <span className="trial-text">{bottomText}</span>
+      )}
+      </button>
+    </div>
   );
 }
 
@@ -24,6 +30,7 @@ Button.propTypes = {
   variant: PropTypes.oneOf(['filled', 'outline']),
   size: PropTypes.oneOf(['sm', 'md', 'lg']),
   children: PropTypes.node.isRequired,
+  bottomText: PropTypes.string,
   onClick: PropTypes.func,
   type: PropTypes.string,
   className: PropTypes.string,
