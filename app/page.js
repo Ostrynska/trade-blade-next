@@ -3,6 +3,7 @@ import HeroSection from '@/components/Hero/hero';
 import FeaturesSection from '@/components/Features/features';
 import DealsSection from '@/components/Deals/deals';
 import AboutSection from '@/components/About/about';
+import PricingSection from '@/components/Pricing/pricing';
 
 import "./page.css";
 
@@ -15,6 +16,7 @@ export default function Home() {
         <FeaturesSection />
         <DealsSection />
         <AboutSection />
+        <PricingSection />
       </main>
     </>
   );
