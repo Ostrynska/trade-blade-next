@@ -8,9 +8,11 @@ import PricingSection from '@/components/Pricing/pricing';
 =======
 import FAQSection from '@/components/FAQ/faq';
 import CTASection from '@/components/ CTA/cta';
+import CTASection from '@/components/ CTA/cta';
 >>>>>>> Stashed changes
 
 import "./page.css";
+
 
 
 export default function Home() {
@@ -26,6 +28,7 @@ export default function Home() {
 <<<<<<< Updated upstream
 =======
         <FAQSection />
+        <CTASection />
         <CTASection />
 >>>>>>> Stashed changes
       </main>
