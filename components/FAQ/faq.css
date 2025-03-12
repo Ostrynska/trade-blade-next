@@ -1,8 +1,11 @@
 .faq-section {
-  max-width: 846px;
-  margin: 0 auto;
   padding: 96px 0;
   background: #FFFFFF;
+}
+
+.faq-container {
+  max-width: 846px;
+  margin: 0 auto;
 }
 
 .faq-title { 

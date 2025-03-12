@@ -1,12 +1,20 @@
-.about-grid {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 24px;
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 116px 0 92px;
-  background: #ffffff;
-  align-items: center;
+
+.about-section { 
+  position: relative;
+  background: #FFFFFF;
+  padding: 125px 0 61px 0;
+  width: 100%;
+}
+
+.about-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 70px solid #0a0a1b;
+  border-left: 70px solid transparent;
+  width: 801px;
+  height: 60px;
 }
 
 .about-left {
@@ -62,6 +70,7 @@
 }
 
 .button {
-    top: 2px !important;
-    width: 165px !important;
+  top: 2px;
+  width: 165px;
+  right: 4px;
 }

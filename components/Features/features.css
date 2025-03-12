@@ -1,15 +1,12 @@
-.features-grid { 
+.features-section { 
   position: relative;
   background: #FFFFFF;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
   gap: 24px;
   padding: 125px 0 61px 0;
   width: 100%;
-  grid-column: 1 / -1;
 }
 
-.features-grid::before {
+.features-section::before {
   content: '';
   position: absolute;
   top: 0;

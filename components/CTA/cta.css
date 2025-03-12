@@ -1,12 +1,15 @@
-.cta-register {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.cta-section {
   padding: 40px 0;
   background: #6a54ff;
+}
+
+.cta-container {
   width: 100%;
   max-width: 1440px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .cta-register-title {
@@ -19,16 +22,16 @@
 }
 
 .cta-form {
-    width: 522px !important;
-    margin-bottom: 0 !important;
+  width: 522px !important;
+  margin-bottom: 0 !important;
 }
 
 .cta-input {
+  width: 522px !important;
   background: #4A3BB3 !important;
-  width: 100% !important;
 }
 
 .cta-button {
-  top: 11px !important;
+  top: 12px !important;
   width: 230px !important;
 }

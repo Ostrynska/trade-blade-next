@@ -15,14 +15,14 @@ export default function Button({
   const classes = `btn ${variant} ${size} ${className}`;
 
   return (
-    <div className="btn-wrapper">
+    <>
       <button type={type} onClick={onClick} className={classes} {...props}>
         {children}
         {bottomText && (
         <span className="trial-text">{bottomText}</span>
       )}
       </button>
-    </div>
+    </>
   );
 }
 

@@ -1,32 +1,25 @@
 import Image from 'next/image';
 import NavLinks from '../NavLinks/nav-links';
+import { navLinks } from '../../data/data';
 import './footer.css';
 
 export default function Footer() {
-  const navLinks = [
-    { label: 'Цифры', href: '#' },
-    { label: 'Сделки онлайн', href: '#' },
-    { label: 'О компании', href: '#' },
-    { label: 'Как начать', href: '#' },
-    { label: 'Тарифы', href: '#' },
-    { label: 'Отзывы', href: '#' },
-    { label: 'FAQ', href: '#' },
-  ];
-
   return (
     <footer className="footer">
       <div className="footer-grid">
         <div className="footer-left">
           <p className="footer-heading">БЫСТРАЯ НАВИГАЦИЯ</p>
-          <NavLinks links={navLinks} />
+          <nav className="nav-links">
+            <NavLinks links={navLinks} />
+          </nav>
         </div>
 
         <div className="footer-right">
           <Image
             src="/logo.png"
             alt="TradeBlade Logo"
-            width={132}
-            height={64}
+            width={165}
+            height={80}
             priority={true}
             className="footer-logo"
           />
