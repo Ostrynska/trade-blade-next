@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1>🚀 TradeBlade Landing Page</h1>
 
-## Getting Started
+This is a modern landing page project built with Next.js and React, showcasing the key features and functionality of the TradeBlade platform.
 
-First, run the development server:
+<h2>🔧 Tech Stack</h2>
+<ul>
+  <li><strong>Next.js</strong> – A frontend framework for React</li>
+  <li><strong>React</strong> – A library for building user interfaces</li>
+  <li><strong>Swiper.js</strong> – For sliders and carousels</li>
+  <li><strong>CSS Modules / SCSS</strong> – Component-level styling</li>
+  <li><strong>Responsive layout</strong> with Flexbox and CSS Grid</li>
+  <li><strong>Next/Image</strong> for image optimization</li>
+</ul>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<h2> 📦 Project Structure</h2>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- `app/` — Main Next.js application folder  
+- `components/` — UI Components  
+  - `Header/`  
+  - `Footer/`  
+  - `DealsSection/`  
+  - `FeaturesSection/`  
+  - `PricingSection/`  
+  - `…/`  
+- `public/` — Static assets (images, icons)  
+- `data/` — JSON or JS files with mock data  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<h2> ✨ Features</h2>
+<ul>
+  <li><strong>Responsive design</strong> (mobile / desktop)</li>
+  <li><strong>Smooth scroll navigation</strong> (anchor links)</li>
+  <li><strong>Modular component structure</strong></li>
+  <li><strong>Mobile menu</strong> (opens on burger click)</li>
+  <li><strong>CSS Grid layout</strong> for aligning blocks to columns</li>
+</ul>
