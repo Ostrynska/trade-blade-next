@@ -1,14 +1,15 @@
 .pricing-section {
-  padding: 96px 0 96px;
-  max-width: 846px;
+  padding: 240px 0 44px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
-.pricing-wrapper {
+.pricing-container {
   display: flex;
   flex-direction: column;
   gap: 40px;
   margin-bottom: 44px;
+  padding: 0 16px;
 }
 
 .pricing-tabs {
@@ -51,7 +52,9 @@
 
 .pricing-grid {
   display: flex;
+  flex-direction: column;
   gap: 20px;
+  padding: 0 16px;
 }
 
 .pricing-card {
@@ -138,4 +141,33 @@
   width: 100%;
   padding-top: 8px !important;
   padding-bottom: 8px !important;
+}
+
+@media screen and (min-width: 1200px) {
+.pricing-section {
+  padding: 96px 0 96px;
+  max-width: 846px;
+  margin: 0 auto;
+}
+
+.pricing-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-bottom: 44px;
+}
+
+.pricing-tabs {
+  display: flex;
+  align-items: center;
+  padding: 4px;
+  width: 369px;
+  height: 52px;
+  border-radius: 4px;
+  background: rgba(106, 84, 255, 0.4);
+}
+.pricing-grid {
+  padding: 0 80px;
+  flex-direction: row;
+}
 }

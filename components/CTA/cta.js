@@ -1,5 +1,5 @@
 import './cta.css';
-import Form from '../Form/form';
+import {FormCta, FormMob} from '../Form/form';
 
 export default function CTASection() {
   return (
@@ -8,8 +8,9 @@ export default function CTASection() {
         <h3 className="cta-register-title">
             Начните прямо сейчас с бесплатным<br />5-и дневным пробным периодом!
         </h3>
+          <FormCta buttonText="Зарегистрироваться" inputClassName="cta-input"/>
 
-        <Form buttonText="Зарегистрироваться" buttonClassName="cta-button" formClassName='cta-form'/>
+          <FormMob buttonText="Зарегистрироваться"  buttonClassName="cta-button" formClassName='cta-form'/>
       </div>
     </section>
   );

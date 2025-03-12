@@ -4,12 +4,13 @@
 }
 
 .faq-container {
-  max-width: 846px;
+  max-width: 100%;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 .faq-title { 
-  margin-bottom: 64px;
+  margin-bottom: 40px;
 }
 
 .faq-card {
@@ -54,4 +55,14 @@
 
 .faq-paragraph {
   margin-bottom: 12px !important;
+}
+
+@media screen and (min-width: 1200px) {
+.faq-container {
+  max-width: 846px;
+  padding: 0 80px;
+}
+.faq-title { 
+  margin-bottom: 64px;
+}
 }

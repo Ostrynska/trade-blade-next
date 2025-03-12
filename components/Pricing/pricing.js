@@ -14,7 +14,7 @@ export default function PricingSection() {
 
   return (
     <section className="pricing-section" id='pricing-section'>
-      <div className='pricing-wrapper'>
+      <div className='pricing-container'>
         <Title className="title-white">ТАРИФЫ</Title>
 
         <div className="pricing-tabs">

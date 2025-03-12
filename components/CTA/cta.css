@@ -8,14 +8,15 @@
   max-width: 1440px;
   margin: 0 auto;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 16px;
 }
 
 .cta-register-title {
   color: #ffffff;
   text-align: left;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: 500;
   line-height: 1.4;
   letter-spacing: -1.12px;
@@ -34,4 +35,19 @@
 .cta-button {
   top: 12px !important;
   width: 230px !important;
+}
+
+@media screen and (min-width: 1200px) {
+.cta-container {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 80px;
+}
+.cta-register-title {
+  font-size: 28px;
+}
 }

@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="footer-grid">
         <div className="footer-left">
           <p className="footer-heading">БЫСТРАЯ НАВИГАЦИЯ</p>
-          <nav className="nav-links">
+          <nav className="footer-nav-links">
             <NavLinks links={navLinks} />
           </nav>
         </div>
