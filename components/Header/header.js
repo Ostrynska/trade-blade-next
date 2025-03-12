@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import NavLinks from './nav-links';
+import NavLinks from '../NavLinks/nav-links';
 import AuthButtons from './auth-buttons';
 import MobileMenu from './mobile-menu';
 import './header.css';
