@@ -1,0 +1,34 @@
+.cta-register {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 0;
+  background: #6a54ff;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.cta-register-title {
+  color: #ffffff;
+  text-align: left;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: -1.12px;
+}
+
+.cta-form {
+    width: 522px !important;
+    margin-bottom: 0 !important;
+}
+
+.cta-input {
+  background: #4A3BB3 !important;
+  width: 100% !important;
+}
+
+.cta-button {
+  top: 11px !important;
+  width: 230px !important;
+}

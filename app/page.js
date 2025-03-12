@@ -5,8 +5,9 @@ import DealsSection from '@/components/Deals/deals';
 import AboutSection from '@/components/About/about';
 import PricingSection from '@/components/Pricing/pricing';
 import FAQSection from '@/components/FAQ/faq';
-
+import CTASection from '@/components/ CTA/cta';
 import "./page.css";
+
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <AboutSection />
         <PricingSection />
         <FAQSection />
+        <CTASection />
       </main>
     </>
   );

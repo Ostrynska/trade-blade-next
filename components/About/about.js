@@ -32,7 +32,7 @@ export default function AboutSection() {
           Попробуйте сейчас и получите 5 дней бесплатного пользования
         </h3>
 
-        <Form buttonText="ПОПРОБОВАТЬ" inputClassName="cta-input"/>
+        <Form buttonText="ПОПРОБОВАТЬ" inputClassName="cta-input" buttonClassName='button'/>
       </div>
     </section>
   );
