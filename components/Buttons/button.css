@@ -9,26 +9,34 @@
   box-shadow: 0px 0px 4px 0px #57E1FF;
   display: flex;
   flex-direction: column;
+  transition: all 0.3s ease;
 }
 
 .btn.outline {
   border: 1px solid #57E1FF;
   color: #57E1FF;
   background: #57E1FF33;
+  transition: all 0.3s ease;
 }
 
 .btn.filled {
   background: #57E1FF;
   color: #000000;
   border: 1.5px solid #57E1FF;
+  transition: all 0.3s ease;
 }
 
-.btn.outline:hover, .btn.outline:focus {
+.btn.outline:hover,
+.btn.outline:focus {
   background: rgba(0, 210, 255, 0.1);
+  color: #ffffff;
+  box-shadow: 0px 0px 8px 0px #57E1FF;
 }
 
-.btn.filled:hover, .btn.filled:focus {
+.btn.filled:hover,
+.btn.filled:focus {
   background: #00bde0;
+  box-shadow: 0px 0px 8px 0px #00bde0;
 }
 
 .trial-text {
@@ -39,11 +47,6 @@
   text-align: center;
   text-transform: none;
 }
-
-/* .btn.sm {
-  padding: 8px 20px;
-  font-size: 14px;
-} */
 
 .btn.md {
   padding: 11px 24px;
