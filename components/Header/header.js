@@ -20,7 +20,6 @@ export default function Header() {
 
   return (
     <header className="header-section">
-      <Container>
         <div className="navbar">
           <div className="logo">
           <Link href="/">
@@ -53,7 +52,6 @@ export default function Header() {
         {isMobileMenuOpen && (
           <MobileMenu links={navLinks} toggleMobileMenu={toggleMobileMenu} />
         )}
-      </Container>
     </header>
   );
 }
