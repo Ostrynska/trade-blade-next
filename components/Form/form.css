@@ -1,12 +1,11 @@
 .form {
   display: flex;
-  margin-bottom: 12px;
   position: relative;
   align-items: center;
   width: 343px;
 }
 
-.form input { 
+.form-input { 
   position: relative;
   width: 100%;
   padding: 20px 0 20px 16px;
@@ -23,7 +22,7 @@
   outline: none;
 }
 
-.form input:hover, .form input:focus {
+.form-input:hover, .form-input:focus {
   border: 0.2px solid #2f0ffdaf;
 }
 
@@ -33,8 +32,32 @@
   max-width: 230px;
 }
 
+.formMob {
+  display: none;
+}
+
+.formCta-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.inputCta {
+  width: 100% !important;
+  min-width: 324px;
+}
+
 @media screen and (min-width: 1200px) {
   .form {
     width: 500px;
+  }
+  .formCta-wrapper {
+    display: none;
+  }
+  .formMob {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 343px;
   }
 }

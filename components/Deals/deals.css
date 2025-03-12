@@ -1,8 +1,12 @@
 .deals-section {
   position: relative;
-  padding: 96px 0 118px 0;
+  padding: 48px 0 53px 0;
   max-width: 1440px;
   margin: 0 auto;
+}
+
+.deals-container {
+  padding: 0 16px;
 }
 
 .status {
@@ -150,4 +154,14 @@
 
 .swiper-scrollbar-drag {
   background: #6073A1;
+}
+
+@media screen and (min-width: 1200px) {
+  .deals-section {
+  padding: 96px 0 118px 0;
+}
+
+  .deals-container {
+  padding: 0 80px;
+}
 }

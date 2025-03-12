@@ -13,6 +13,7 @@ import './deals.css';
 export default function DealsSection() {
   return (
       <section className="deals-section" id='deals-section'>
+        <div className='deals-container'>
             <Title className="title-white">ПРОШЕДШИЕ СДЕЛКИ</Title>
 
             <div className="status">
@@ -52,6 +53,7 @@ export default function DealsSection() {
                 ))}
             </Swiper>
         </Container>
+        </div>
     </section>
   );
 }

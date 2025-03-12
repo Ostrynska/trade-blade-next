@@ -1,13 +1,13 @@
 import './about.css';
 import { information } from '../../data/data';
 import Title from '../Title/title';
-import Form from '../Form/form';
-import Container from '../Container/container';
+import Form, { FormCta } from '../Form/form';
+import {FormMob} from '../Form/form';
 
 export default function AboutSection() {
   return (
     <section className="about-section" id="about-section">
-      <Container>
+      <div className='about-container'>
         <div className="about-left">
           <Title>О компании</Title>
           <ul className="about-info">
@@ -23,10 +23,11 @@ export default function AboutSection() {
           <h3 className="cta-title">
             Попробуйте сейчас и получите 5 дней бесплатного пользования
           </h3>
+          <FormCta buttonText="ПОПРОБОВАТЬ" inputClassName="cta-input"/>
 
-          <Form buttonText="ПОПРОБОВАТЬ" inputClassName="cta-input" buttonClassName='button'/>
+          <FormMob buttonText="ПОПРОБОВАТЬ" inputClassName="cta-input" buttonClassName='button'/>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }
