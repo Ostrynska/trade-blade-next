@@ -155,6 +155,7 @@
   flex-direction: column;
   gap: 40px;
   margin-bottom: 44px;
+  padding: 0;
 }
 
 .pricing-tabs {
@@ -166,8 +167,9 @@
   border-radius: 4px;
   background: rgba(106, 84, 255, 0.4);
 }
+
 .pricing-grid {
-  padding: 0 80px;
+  padding: 0;
   flex-direction: row;
 }
 }
