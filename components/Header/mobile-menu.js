@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import NavLinks from './nav-links';
+import NavLinks from '../NavLinks/nav-links';
 import Button from '../Buttons/button';
 import './mobile-menu.css';
 
