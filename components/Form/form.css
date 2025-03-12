@@ -3,7 +3,7 @@
   margin-bottom: 12px;
   position: relative;
   align-items: center;
-  width: 500px;
+  width: 343px;
 }
 
 .form input { 
@@ -31,4 +31,10 @@
   position: absolute;
   width: 100%;
   max-width: 230px;
+}
+
+@media screen and (min-width: 1200px) {
+  .form {
+    width: 500px;
+  }
 }

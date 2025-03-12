@@ -4,8 +4,8 @@ import './hero.css';
 
 export default function HeroSection() {
   return (
-    <section className="hero-grid">
-
+    <section className="hero-section">
+      <div className='hero-container'>
       <div className="hero-left">
         <h1 className="hero-title">
           МОМЕНТАЛЬНО <br />
@@ -31,6 +31,8 @@ export default function HeroSection() {
           className="hero-image"
         />
       </div>
+      </div>
+
     </section>
   );
 }

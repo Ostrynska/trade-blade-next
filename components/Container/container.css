@@ -1,12 +1,14 @@
 .layout-wrapper {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: 24px;
-  max-width: 1440px;
-  /* padding: 0 16px; */
-  margin: 0 auto;
-  box-sizing: border-box;
+  display: flex;
 }
 
 @media screen and (min-width: 1200px) {
+    .layout-wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 24px;
+    max-width: 1440px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    }
 }
