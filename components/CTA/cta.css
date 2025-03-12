@@ -50,4 +50,7 @@
 .cta-register-title {
   font-size: 28px;
 }
+.cta-button {
+  top: 11.5px !important;
+}
 }
