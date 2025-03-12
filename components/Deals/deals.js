@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Scrollbar } from 'swiper/modules';
 import {deals} from '../../data/data';
 import Title from '../Title/title';
-import Container from '../Container/container';
 import 'swiper/css';
 import 'swiper/css/scrollbar';
 import './deals.css';
@@ -21,11 +20,10 @@ export default function DealsSection() {
                 <span className='status-label'>Онлайн</span>
             </div>
 
-          <Container>
             <Swiper
                 modules={[Scrollbar]}
                 spaceBetween={20}
-                slidesPerView={4.5}
+                slidesPerView={3}
                 grabCursor={true}
                 loop={false}
                 scrollbar={{ draggable: true, hide: false }}
@@ -52,7 +50,6 @@ export default function DealsSection() {
                 </SwiperSlide>
                 ))}
             </Swiper>
-        </Container>
         </div>
     </section>
   );
